@@ -1,0 +1,14 @@
+{
+  "name": "ts-test-app",
+  "version": "0.0.1",
+  "description": "TypeScript test app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf build && npx tsc --watch"
+  },
+  "author": "volodink",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
