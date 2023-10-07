@@ -4,11 +4,12 @@
   "description": "TypeScript test app",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rf build && npx tsc --watch"
+    "dev": "rimraf ./build && npx tsc --watch"
   },
   "author": "volodink",
   "license": "MIT",
   "devDependencies": {
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2"
   }
 }
