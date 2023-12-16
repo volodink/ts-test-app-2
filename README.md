@@ -1,5 +1,13 @@
 # Tecтовый проект на TS
 
+Как запустить проект?
+```
+npm install
+```
+```
+npm run dev
+```
+
 ```
 *.ts -> tsc  -> *.js -> browser
         node
@@ -12,10 +20,3 @@
  pip  -> npm
 ```
 
-Как запустить проект?
-```
-npm install
-```
-```
-npm run dev
-```
